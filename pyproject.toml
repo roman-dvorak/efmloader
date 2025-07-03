@@ -1,0 +1,22 @@
+[project]
+name = "efmloader"
+version = "0.1.0"
+description = "A loader for EFM HDF5 waveform data and intensity extraction"
+authors = [
+    { name="Roman Dvořák", email="your@email.com" }
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+dependencies = [
+    "numpy",
+    "pandas",
+    "h5py",
+    "matplotlib",
+    "scipy",
+    "tqdm"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
